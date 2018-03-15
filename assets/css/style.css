@@ -7,10 +7,23 @@ body {
 }
 
 .jumbotron {
+    margin-top: -10px;
     padding-top: 6rem;
     padding-bottom: 6rem;
     margin-bottom: 0;
-    background-color: #fff;
+    background-image: url("../images/banner.jpeg");
+    background-repeat: no-repeat;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color: #fff;
+}
+
+.jumbotron h1{
+    font-weight: 500;
 }
 
 .jumbotron p:last-child {
@@ -30,7 +43,7 @@ body {
     /* Can be removed; just added for demo purposes */
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-color: #f7f7f7;
+    background-color: #a79999;
 }
 
 .card-image-top {
@@ -57,6 +70,22 @@ h5{
     font-weight: 100;
 }
 
+.panel{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 20px;
+    padding-bottom: 41px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none !important;
+    color: #343A40;
+}
+
+.lead{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 /* Footer */
 
 footer {
